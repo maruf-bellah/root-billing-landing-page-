@@ -537,8 +537,8 @@ html {
 }
 
 .btn-dark {
-  /* background: #152c5c; */
-  /* border-color: #152c5c !important; */
+  background: #152c5c;
+  border-color: #152c5c !important;
 }
 
 .btn-dark:hover,
@@ -973,7 +973,7 @@ html {
   height: 100%;
   left: 0;
   top: 0;
-  background: #152c5c;
+  /* background: #152c5c; */
   z-index: -3;
   width: 65%;
   left: auto;
