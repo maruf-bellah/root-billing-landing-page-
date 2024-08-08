@@ -8,15 +8,14 @@
   <meta name="description" content="Premium Bootstrap v5.3.2 Landing Page Template" />
   <meta name="keywords" content="bootstrap v5.3.2, premium, marketing, multipurpose" />
   <meta content="Themesdesign" name="author" />
-
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" /> -->
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-
   <!-- fevicon -->
-  <link rel="shortcut icon" href="images/icon/main-2.png" />
+  <!-- <link rel="shortcut icon" href="images/icon/main-2.png" /> -->
+  <link rel="icon" type="image/x-icon" href="/images/logo/mainFav.png">
 
   <!-- Bootstrap css -->
   <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" />
@@ -42,8 +41,8 @@
     <div class="container">
       <!-- LOGO -->
       <a class="navbar-brand text-uppercase" href="#home">
-        <img class="logo-light" src="images/logo/main.png" alt="" height="50" />
-        <img class="logo-dark" src="images/logo/main.png" alt="" height="50" />
+        <img class="logo-light" src="images/logo/logo.png" alt="" height="70" />
+        <img class="logo-dark" src="images/logo/logo.png" alt="" height="70" />
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -70,9 +69,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#more-features">More Features</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link mb-3 mb-lg-0" href="#contact">Contact</a>
           </li>
@@ -100,7 +96,7 @@
             <h1 class="mb-3">
               Your Complete<span class="text-primary">
 
-                <span class="typewrite text-primary d-none d-sm-inline-block" data-period="4000" data-type='[ "ISP" ]'>
+                <span class="typewrite text-primary d-none d-sm-inline-block" data-period="2000" data-type='[ "ISP" ]'>
                   <!-- <span class="wrap"></span> -->
                 </span>
               </span>Billing and
@@ -118,11 +114,14 @@
             reduce costs and deliver outstanding service to your clients."
           </p>
           <div class="home-btn hstack gap-2 flex-column d-sm-block mb-5 mb-sm-0">
-            <a class="btn btn-primary me-1" href="javascript:void(0)" type="button" data-bs-toggle="modal"
-              data-bs-target="#staticBackdrop">
-              <!-- <button >
-              </button> -->
-              Silicon ISP Terms and Conditions
+            <a class="btn btn-primary me-sm-3" href="https://app.siliconisp.com/auth/signup" type="button">
+
+              Sign UP
+            </a>
+
+            <a class="btn btn-primary ms-sm-2" href="https://app.siliconisp.com/auth/login" type="button">
+
+              Login
             </a>
             <a class="modal-btn" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target=".watchvideomodal">
               <span class="avatar-sm">
@@ -457,25 +456,21 @@
 
 
   <!-- start about -->
-  <section class="section about" id="about">
+  <section class="s" id="about">
     <div class="container">
       <div class="row justify-content-center  ">
-        <div class=" col-lg-12">
-          <div style="margin-bottom: -100px;" class="text-center ">
-            <h3 class="heading">
-              About <span class="text-primary"> Silicon ISP </span>
-            </h3>
-
-          </div>
-        </div>
 
         <div class="col-lg-12">
+
+          <h3 class="heading text-center">
+            About <span class="text-primary"> Silicon ISP </span>
+          </h3>
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade active show" id="pills-privacy_policy" role="tabpanel"
               aria-labelledby="pills-privacy_policy-tab">
               <div class="row justify-content-between  align-items-center">
                 <div class="col-lg-6">
-                  <div class="about-img mt-5">
+                  <div class="about-img ">
                     <img src="images/about.png" class="img-fluid" alt="" />
                   </div>
                 </div>
@@ -517,13 +512,11 @@
         <!-- ===================================================================== -->
         <div class="col-lg-12">
           <div class="row align-items-end justify-content-center g-1">
-
-
             <div class="col-lg-12">
               <div style="margin-bottom: -50px;" class="row align-items-end justify-content-center g-1">
                 <div class="col-lg-3">
                   <div class="row mx-auto g-3">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 ">
                       <div class="card features-box border-0">
                         <div class="card-body features-body">
                           <div class="d-flex">
@@ -545,8 +538,8 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-12">
-                      <div class="card features-box border-0">
+                    <div class="col-lg-12  mb-1">
+                      <div class="card features-box border-0 mb-sm-2">
                         <div class="card-body features-body">
                           <div class="d-flex">
                             <div class="flex-shrink-0">
@@ -572,7 +565,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mt-1">
                   <div class="row mx-auto g-3">
                     <div class="col-lg-12">
                       <div class="card features-box border-0">
@@ -659,10 +652,10 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-12 ">
+                    <div class="col-lg-12 d-md-block d-sm-none">
                       <div class="card features-box border-0 ">
                         <div class="card-body features-body">
-                          <div class="d-flex">
+                          <div class="d-flex ">
                             <div class="flex-shrink-0">
                               <div class="align-items-center">
                                 <div class="features-icon">
@@ -683,7 +676,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-12">
+              <div class="col-lg-12 ">
                 <div class="row align-items-center justify-content-center g-">
                   <div class="col-lg-3">
                     <div class="row mx-auto g-3">
@@ -1036,36 +1029,34 @@
           <div class="pricing-box card text-center border-0 ">
             <div class="mb-3">
               <h6 class="text-uppercase mb-0">First Plan</h6>
-              <h3 class="text-primary mb-0 display-6 fw-bold">Basic</h3>
+              <h3 class="text-primary mb-0 display-6 fw-bold">OTC</h3>
             </div>
             <ul class="pricing-list list-unstyled mt-2 mb-0 text-start">
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 1-300 User (৳1000 /per month)
+                <input type="radio" checked> 1-300 User (৳ 5,000/per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 301-500 User (৳1500 /per month)
+                <input type="radio" checked> 301-500 User (৳ 5,000 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 501-1000 User (৳2000 /per month)
+                <input type="radio" checked> 501-1000 User (৳ 5,000 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 1000-2000 User (৳3000 /per mth)
+                <input type="radio" checked> 1001-2000 User (৳ 8,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 2001-3000 User (৳4000 /per mth)
+                <input type="radio" checked> 2001-3000 User (৳ 8,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 3001-5000 User (৳6000 /per mth)
+                <input type="radio" checked> 3001-5000 User (৳ 10,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 5001-7000 User (৳7000 /per mth)
+                <input type="radio" checked> 5001-7000 User (৳ 10,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 7001-10000 User (৳10000 /per mth)
+                <input type="radio" checked> 7001-10000 User (৳ 10,000 /per mth)
               </li>
-              <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 10000+ User (Negotiable)
-              </li>
+
             </ul>
             <!--end pricing-list-->
             <div class="mt-4 pt-3">
@@ -1115,37 +1106,35 @@
           <div class="pricing-box card text-center border-0 ">
             <div class="mb-3">
               <h6 class="text-uppercase mb-0">Second Plan</h6>
-              <h3 class="text-primary mb-0 display-6 fw-bold ">Standard
+              <h3 class="text-primary mb-0 display-6 fw-bold ">Basic
               </h3>
             </div>
             <ul class="pricing-list list-unstyled mt-2 mb-0 text-start">
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 1-300 User (৳1500 /per month)
+                <input type="radio" checked> 1-300 User (৳ 1,500 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 301-500 User (৳2000 /per month)
+                <input type="radio" checked> 301-500 User (৳ 2,000 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 501-1000 User (৳2500 /per month)
+                <input type="radio" checked> 501-1000 User (৳ 3,000 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 1000-2000 User (৳4000 /per mth)
+                <input type="radio" checked> 1001-2000 User (৳ 5,0000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 2001-3000 User (৳5500 /per mth)
+                <input type="radio" checked> 2001-3000 User (৳ 6,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 3001-5000 User (৳8000 /per mth)
+                <input type="radio" checked> 3001-5000 User (৳ 9.0000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 5001-7000 User (৳9500 /per mth)
+                <input type="radio" checked> 5001-7000 User (৳ 12,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 7001-10000 User (৳13000 /per mth)
+                <input type="radio" checked> 7001-10000 User (৳ 15,000 /per mth)
               </li>
-              <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 10000+ User (Negotiable)
-              </li>
+
             </ul>
             <!--end pricing-list-->
             <div class="mt-4 pt-3">
@@ -1159,37 +1148,35 @@
           <div class="pricing-box card text-center border-0 ">
             <div class="mb-3">
               <h6 class="text-uppercase mb-0">Third Plan</h6>
-              <h3 class="text-primary mb-0 display-6 fw-bold ">Premium
+              <h3 class="text-primary mb-0 display-6 fw-bold ">Standard
               </h3>
             </div>
             <ul class="pricing-list list-unstyled mt-2 mb-0 text-start">
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 1-300 User (৳2000 /per month)
+                <input type="radio" checked> 1-300 User (৳ 2,500 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 301-500 User (৳3000 /per month)
+                <input type="radio" checked> 301-500 User (৳ 3,000 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 501-1000 User (৳3500 /per month)
+                <input type="radio" checked> 501-1000 User (৳ 4,500 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 1000-2000 User (৳5000 /per mth)
+                <input type="radio" checked> 1001-2000 User (৳ 7,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 2001-3000 User (৳6500 /per mth)
+                <input type="radio" checked> 2001-3000 User (৳ 9,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 3001-5000 User (৳10000 /per mth)
+                <input type="radio" checked> 3001-5000 User (৳ 12,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 5001-7000 User (৳12000 /per mth)
+                <input type="radio" checked> 5001-7000 User (৳ 16,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 7001-10000 User (৳16000 /per mth)
+                <input type="radio" checked> 7001-10000 User (৳ 20,000 /per mth)
               </li>
-              <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 10000+ User (Negotiable)
-              </li>
+
             </ul>
             <!--end pricing-list-->
             <div class="mt-4 pt-3">
@@ -1207,37 +1194,35 @@
             <div class="mb-3">
               <h6 class="text-uppercase mb-0">Advanced Plan</h6>
               <h3 class="text-primary mb-0 display-6 fw-bold">
-                Premium+
+                Premium
               </h3>
             </div>
             <ul class="pricing-list list-unstyled mt-2 mb-0 text-start">
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 1-300 User (৳2500 /per month)
+                <input type="radio" checked> 1-300 User (৳ 3,000 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 301-500 User (৳3500 /per month)
+                <input type="radio" checked> 301-500 User (৳ 4,000 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 501-1000 User (৳4500 /per month)
+                <input type="radio" checked> 501-1000 User (৳ 5000 /per month)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 1000-2000 User (৳6000 /per mth)
+                <input type="radio" checked> 1001-2000 User (৳9,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 2001-3000 User (৳8000 /per mth)
+                <input type="radio" checked> 2001-3000 User (৳12,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 3001-5000 User (৳12000 /per mth)
+                <input type="radio" checked> 3001-5000 User (৳16,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 5001-7000 User (৳15000 /per mth)
+                <input type="radio" checked> 5001-7000 User (৳21,000 /per mth)
               </li>
               <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 7001-10000 User (৳20000 /per mth)
+                <input type="radio" checked> 7001-10000 User (৳26,000 /per mth)
               </li>
-              <li style="font-size: 13px;" class="pricing-item">
-                <input type="radio" checked> 10000+ User (Negotiable)
-              </li>
+
             </ul>
             <!--end pricing-list-->
             <div class="mt-4 pt-3">
@@ -1255,6 +1240,18 @@
   <!--end package-->
 
 
+  <div class="container mb-3">
+    <div style="font-size: 14px;" class="card ">
+      <ol class="mt-3">
+        <li>Personalized Client Mobile App One Time Setup Charge 5000 TK</li>
+        <li>Personalized Admin and client Web Portal One Time Setup Charge 500 Tk</li>
+        <li>Non Masking SMS: 40 Paisa</li>
+        <li>Masking SMS: 70 Paisa</li>
+      </ol>
+    </div>
+  </div>
+
+
 
   <!-- start package list  -->
   <div>
@@ -1266,7 +1263,7 @@
             <th scope="col">Basic</th>
             <th scope="col">Standard</th>
             <th scope="col">Premium</th>
-            <th scope="col">Premium+</th>
+
 
 
           </tr>
@@ -1274,7 +1271,6 @@
         <tbody>
           <tr>
             <td>Client Management</td>
-            <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
@@ -1287,55 +1283,50 @@
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Client Support and Ticketing</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Reports</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>SMS Module </td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Basic Client Portal (App + Web)</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Accounts Management</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
-          <tr>
-            <td>Task Management</td>
-            <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           <tr>
             <td>Reseller Panel + App</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Sub Reseller Panel + App
@@ -1343,49 +1334,49 @@
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td> All Panel App</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Pos Printing </td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Activity Log</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Task Management</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Branch Management</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>HRM </td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Payroll
@@ -1393,70 +1384,70 @@
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Basic Inventory</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>HOTSPOT</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Client Mobile App</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
-            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Basic Inventory</td>
-            <td class="text-danger">&#10005;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Network Diagram</td>
-            <td class="text-danger">&#10005;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
             <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Network Diagram (Google Map)</td>
             <td class="text-danger">&#10005;</td>
-            <td class="text-danger">&#10005;</td>
-            <td class="text-danger">&#10005;</td>
             <td class="text-primary">&#x2611;</td>
+            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Premium Inventory</td>
             <td class="text-danger">&#10005;</td>
-            <td class="text-danger">&#10005;</td>
-            <td class="text-danger">&#10005;</td>
             <td class="text-primary">&#x2611;</td>
+            <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Personalized Client Mobile App</td>
             <td class="text-danger">&#10005;</td>
             <td class="text-danger">&#10005;</td>
-            <td class="text-danger">&#10005;</td>
             <td class="text-primary">&#x2611;</td>
+
           </tr>
           <tr>
             <td>Personalized Admin and Client Web Portal</td>
             <td class="text-danger">&#10005;</td>
             <td class="text-danger">&#10005;</td>
-            <td class="text-danger">&#10005;</td>
             <td class="text-primary">&#x2611;</td>
+
           </tr>
         </tbody>
       </table>
@@ -1553,8 +1544,8 @@
                 </ol>
 
                 <div>
-                  <a class="text-primary ms-4" href="#features
-                ">Back ......</a>
+                  <a class="text-primary ms-4 " href="#features
+                "> Back to Features</a>
                 </div>
 
               </div>
@@ -1623,7 +1614,7 @@
 
                 <div>
                   <a class="text-primary ms-4" href="#features
-                ">Back ......</a>
+                ">Back to Features</a>
                 </div>
               </div>
             </div>
@@ -1679,7 +1670,7 @@
 
                 <div>
                   <a class="text-primary ms-4" href="#features
-                    ">Back ......</a>
+                    ">Back to Features</a>
                 </div>
 
               </div>
@@ -1692,7 +1683,7 @@
   </div>
   <!-- 4. Inventory Management -->
   <div class="container my-3">
-    <div style="border: none;" id="Inventory-Management" class="card shadow">
+    <div style="border: none;" id="Inventory-Management" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Inventory</span> Management</h3>
         <div>
@@ -1725,7 +1716,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1733,7 +1724,7 @@
   </div>
   <!-- 5. SMS/Email Module -->
   <div class="container my-3">
-    <div style="border: none;" id="SMS-Email-Module" class="card shadow">
+    <div style="border: none;" id="SMS-Email-Module" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">SMS/Email </span> Module </h3>
         <div>
@@ -1758,7 +1749,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1766,7 +1757,7 @@
   </div>
   <!-- 6. Configuration Settings -->
   <div class="container my-3">
-    <div style="border: none;" id="Configuration-Settings" class="card shadow">
+    <div style="border: none;" id="Configuration-Settings" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Configuration </span> Settings</h3>
         <div>
@@ -1791,7 +1782,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1799,7 +1790,7 @@
   </div>
   <!-- 7. Branch Management -->
   <div class="container my-3">
-    <div style="border: none;" id="Branch-Management" class="card shadow">
+    <div style="border: none;" id="Branch-Management" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Branch </span> Management </h3>
         <div>
@@ -1816,7 +1807,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1824,7 +1815,7 @@
   </div>
   <!-- 8. Dynamic Dashboard -->
   <div class="container my-3">
-    <div style="border: none;" id="Dynamic-Dashboard" class="card shadow">
+    <div style="border: none;" id="Dynamic-Dashboard" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary"> Dynamic </span> Dashboard</h3>
         <div>
@@ -1845,7 +1836,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1854,7 +1845,7 @@
 
   <!-- 9. Payment Gateway Settings -->
   <div class="container my-3">
-    <div style="border: none;" id="Payment-Gateway-Settings" class="card shadow">
+    <div style="border: none;" id="Payment-Gateway-Settings" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Payment Gateway </span> Settings</h3>
         <div>
@@ -1871,7 +1862,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1880,7 +1871,7 @@
 
   <!-- 10. Role-Based Access Control -->
   <div class="container my-3">
-    <div style="border: none;" id="Role-Based-Access-Control" class="card shadow">
+    <div style="border: none;" id="Role-Based-Access-Control" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Role-Based Access </span> Control</h3>
         <div>
@@ -1897,7 +1888,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1906,7 +1897,7 @@
 
   <!-- 11. Accounts Management -->
   <div class="container my-3">
-    <div style="border: none;" id="Accounts-Management" class="card shadow">
+    <div style="border: none;" id="Accounts-Management" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Accounts </span>Management</h3>
         <div>
@@ -1935,7 +1926,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1944,7 +1935,7 @@
 
   <!-- 12. Task Management -->
   <div class="container my-3">
-    <div style="border: none;" id="Task-Management" class="card shadow">
+    <div style="border: none;" id="Task-Management" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Task </span> Management</h3>
         <div>
@@ -1961,7 +1952,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -1970,7 +1961,7 @@
 
   <!-- 13. HRM & Payroll -->
   <div class="container my-3">
-    <div style="border: none;" id="HRM-Payroll" class="card shadow">
+    <div style="border: none;" id="HRM-Payroll" class="card border">
       <div class="p-4">
         <h3> <span class="primary">HRM </span> & Payroll</h3>
         <div>
@@ -1995,7 +1986,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2004,7 +1995,7 @@
 
   <!-- 14. Reseller Management -->
   <div class="container my-3">
-    <div style="border: none;" id="Reseller-Management" class="card shadow">
+    <div style="border: none;" id="Reseller-Management" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Reseller </span> Management</h3>
         <div>
@@ -2029,7 +2020,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2037,7 +2028,7 @@
   </div>
   <!-- 15. Support Tickets -->
   <div class="container my-3">
-    <div style="border: none;" id="Support-Tickets" class="card shadow">
+    <div style="border: none;" id="Support-Tickets" class="card border">
       <div class="p-4">
         <h3><span class="text-primary"> Support </span> Tickets </h3>
         <div>
@@ -2062,7 +2053,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2072,7 +2063,7 @@
 
   <!-- 16. Client Reports -->
   <div class="container my-3">
-    <div style="border: none;" id="Client-Reports" class="card shadow">
+    <div style="border: none;" id="Client-Reports" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary"> Client </span> Reports </h3>
         <div>
@@ -2097,7 +2088,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2107,7 +2098,7 @@
 
   <!-- 17. Billing Management -->
   <div class="container my-3">
-    <div style="border: none;" id="Billing-Management" class="card shadow">
+    <div style="border: none;" id="Billing-Management" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Billing </span>Management</h3>
         <div>
@@ -2136,7 +2127,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2145,7 +2136,7 @@
 
   <!-- 18. Client Management -->
   <div class="container my-3">
-    <div style="border: none;" id="Client-Management" class="card shadow">
+    <div style="border: none;" id="Client-Management" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary"> Client </span> Management</h3>
         <div>
@@ -2170,7 +2161,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2180,7 +2171,7 @@
 
   <!-- 19. Client Portal Management -->
   <div class="container my-3">
-    <div style="border: none;" id="Client-Portal-Management" class="card shadow">
+    <div style="border: none;" id="Client-Portal-Management" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Client Portal </span>Management</h3>
         <div>
@@ -2209,7 +2200,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2218,7 +2209,7 @@
 
   <!-- 20. Admin and Reseller Panels -->
   <div class="container my-3">
-    <div style="border: none;" id="Admin-Reseller-Panels" class="card shadow">
+    <div style="border: none;" id="Admin-Reseller-Panels" class="card border">
       <div class="p-4">
         <h3> <span class="text-primary">Admin and Reseller </span> Panels</h3>
         <div>
@@ -2240,7 +2231,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2250,7 +2241,7 @@
 
   <!-- Unique Value Propositions -->
   <div class="container my-3">
-    <div style="border: none;" id="Unique-Value-Propositions" class="card shadow">
+    <div style="border: none;" id="Unique-Value-Propositions" class="card border">
       <div class="p-4">
 
 
@@ -2291,7 +2282,7 @@
 
           <div>
             <a class="text-primary ms-4" href="#features
-              ">Back ......</a>
+              ">Back to Features</a>
           </div>
         </div>
       </div>
@@ -2467,8 +2458,11 @@
           <h6 class="text-uppercase fw-semibold">Contact Us</h6>
           <ul class="list-unstyled footer-link mt-3 mb-0 fs-14">
             <li><a href="javascript:void(0)">Email: siliconisp@gmail.com </a></li>
-            <li><a href="#">Term &amp; Conditions</a></li>
             <li><a href="javascript:void(0)">Mobile: 01896488498</a></li>
+            <li><a>Address: House# 105,Road# <br>
+                13A,
+                Banani, Dhaka-1213</a>
+            </li>
           </ul>
         </div>
         <!-- End col -->
@@ -2480,7 +2474,7 @@
           <p class="mt-md-3 pt-3 pt-md-2 fs-14">
             Your Complete ISP Billing and Management Software
           </p>
-          <div class="footer-subcribe text-end shadow-sm d-inline-block">
+          <div class="footer-subcribe text-end border-sm d-inline-block">
             <form action="javascript:void(0)">
               <input placeholder="Your Email Address" type="email" />
               <button type="submit" class="btn btn-primary">
@@ -2488,8 +2482,14 @@
               </button>
             </form>
           </div>
-          <div class="mt-md-4 mt-3">
-            <ul class="list-unstyled mb-0 mt-3 social-icon">
+          <p style="font-size: 13px;" class="mt-3 "> <a class="me-1 btn-sm" href="javascript:void(0)" type="button"
+              data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <!-- <button >
+          </button> -->
+              Silicon ISP Terms and Conditions
+            </a></p>
+          <div class="">
+            <ul class="list-unstyled mb-0 social-icon">
               <li>
                 <div data-aos="fade-up" data-aos-duration="800">
                   <div class="">
@@ -2559,7 +2559,7 @@
                 document.write(new Date().getFullYear());
               </script>
               <span>
-                <img style="width: 12px;" src="./images/icon/Heart.png" alt="">
+
               </span> <a class="text-white" href="https://app.siliconisp.com"> siliconisp.com</a>
             </p>
           </div>
