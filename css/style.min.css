@@ -1450,13 +1450,13 @@ html {
 }
 
 .pricing .pricing-box .pricing-list .pricing-item {
-  margin: 10px 0;
-  font-size: 16px;
+  margin: 10px 10px;
+  font-size: 20px;
 }
 
 .pricing .pricing-box sub {
   bottom: -0.15rem;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .pricing .pricing-box .btn-pricing {
