@@ -84,7 +84,7 @@ html {
 }
 
 .text-danger {
-  color: #ef4b4b !important;
+  color: #e67272 !important;
 }
 
 .bg-danger {
@@ -100,7 +100,7 @@ html {
 }
 
 .bg-light {
-  background-color: #bbbaba !important;
+  background-color: #ef4b4b !important;
 }
 
 .bg-soft-light {
@@ -116,11 +116,11 @@ html {
 }
 
 .bg-soft-dark {
-  background-color: rgba(21, 44, 92, 0.18) !important;
+  background-color: rgba(3, 9, 23, 0.908) !important;
 }
 
 .text-muted {
-  color: #839393 !important;
+  color: #2c2e2e !important;
 }
 
 .bg-muted {
@@ -199,7 +199,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(131deg, #2e3140, transparent);
+  background-color: #ef4b4b !important;
 }
 
 .overflow-hidden-x {
@@ -309,8 +309,8 @@ html {
 }
 
 .btn-primary {
-  background: #ff805d;
-  border-color: #ff805d !important;
+  /* background: #ff805d; */
+  /* border-color: #ff805d !important; */
 }
 
 .btn-primary:hover,
@@ -321,16 +321,16 @@ html {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .open > .dropdown-toggle.btn-primary {
-  background: #ff7049;
-  border-color: #ff7049;
+  /* background: #ff7049; */
+  /* border-color: #ff7049; */
   box-shadow: 0px 8px 20px -6px rgba(255, 128, 93, 0.6);
   transform: translateY(-6px);
 }
 
-.btn-outline-primary {
+/* .btn-outline-primary {
   color: #ff805d;
   border-color: #ff805d;
-}
+} */
 
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
@@ -340,8 +340,8 @@ html {
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open > .dropdown-toggle.btn-primary {
-  background: #ff805d;
-  border-color: #ff805d;
+  /* background: #ff805d; */
+  /* border-color: #ff805d; */
   box-shadow: 0px 8px 20px -6px rgba(255, 128, 93, 0.6);
   transform: translateY(-6px);
 }
@@ -454,14 +454,14 @@ html {
 .btn-outline-warning:not(:disabled):not(.disabled):active,
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus,
 .btn-outline-warning .open > .dropdown-toggle.btn-primary {
-  background: #f4b942;
+  /* background: #f4b942; */
   border-color: #f4b942;
   box-shadow: 0px 8px 20px -6px rgba(244, 185, 66, 0.6);
   transform: translateY(-6px);
 }
 
 .btn-danger {
-  background: #ef4b4b;
+  /* background: #ef4b4b; */
   border-color: #ef4b4b !important;
 }
 
@@ -797,7 +797,7 @@ html {
 .nav-sticky.navbar-custom {
   margin-top: 0px;
   padding: 0px 0px;
-  background-color: #fff;
+  color: #ff805d !important;
   box-shadow: 0px 3px 10px 0px rgba(38, 107, 193, 0.08);
 }
 
@@ -826,7 +826,7 @@ html {
 }
 
 .nav-sticky .nav-btn {
-  background-color: #ff805d;
+  background-color: #ff805d !important;
   color: #fff;
 }
 
@@ -888,11 +888,11 @@ html {
   }
 
   .navbar-nav .nav-item .nav-link::before {
-    background-color: #ff805d !important;
+    /* background-color: #ff805d !important; */
   }
 
   .nav-btn {
-    background-color: #ff805d !important;
+    /* background-color: #ff805d !important; */
     color: #fff !important;
   }
 }
@@ -1194,7 +1194,7 @@ html {
   width: 44px;
   line-height: 44px;
   border-radius: 50%;
-  background-color: #ff805d;
+  /* background-color: #ff805d; */
   color: #fff;
 }
 
@@ -1262,7 +1262,7 @@ html {
   height: 100%;
   left: 0;
   top: 0;
-  background: #ffe8e1;
+  /* background: #ffe8e1; */
   z-index: -3;
   width: 73%;
   left: auto;
@@ -1277,7 +1277,7 @@ html {
   top: 0;
   left: auto;
   right: 0;
-  background: #fff7f4;
+  /* background: #fff7f4; */
   width: 27%;
   z-index: -1;
 }
@@ -1290,7 +1290,7 @@ html {
 
 .home-10 .home-heading .home-text {
   height: 30px;
-  background-color: #f1f0fe;
+  /* background-color: #f1f0fe; */
 }
 
 @media (max-width: 1140px) {
@@ -1438,7 +1438,8 @@ html {
 }
 
 .pricing .pricing-box .ribbon {
-  background: #ff805d;
+  background-color: #ec7e60 !important;
+  color: #fff;
   color: #fff;
   font-size: 0.9em;
   padding: 45px 54px 15px;
@@ -1451,7 +1452,7 @@ html {
 
 .pricing .pricing-box .pricing-list .pricing-item {
   margin: 10px 10px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .pricing .pricing-box sub {
